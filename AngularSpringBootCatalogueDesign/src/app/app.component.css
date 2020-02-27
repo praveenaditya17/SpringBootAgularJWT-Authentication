@@ -1,0 +1,36 @@
+.header{
+    height: 100px;
+    width: 100%;
+    background-color:  #8cb6b6;
+
+    margin-bottom: 10px;
+    padding: 0;
+    float: left;
+
+}
+.header1{
+    color:white;
+    text-decoration: floralwhite;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight:bold;
+    float: left;
+    margin-top:20px;
+    width: 100%;
+}
+.header2{
+    color:white;
+    height: 50px;
+    width: 100%;
+    float: left;
+} 
+.btn{
+    height:35px;
+    width: 150px;
+    float: right;
+    background-color: #8cb6b6;
+    margin-left: 8px;
+    margin-top: 0.8%;
+
+}

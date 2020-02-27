@@ -1,0 +1,14 @@
+<!-- this is header page  and here two button for routing the addCatalogue and ShowCatalogue-->
+<div class="container-fluid header">
+  <div class="header1">
+   Online Catalogue Design System
+  </div> 
+ <div class="header2">
+    
+  <button class="btn" type="button" *ngIf="loginService.isUserLoggedIn()" routerLink="/logout" routerLinkActive="active">Logout</button> 
+  <button class="btn" type="button" *ngIf="loginService.isUserLoggedIn()" routerLink="/showcatalogue" routerLinkActive="active"> ShowCatalogue</button>
+  <button class="btn" type="button" *ngIf="loginService.isUserLoggedIn()" routerLink="/addcatalogue" routerLinkActive="active"> AddCatalogue</button>
+  <button class="btn" type="button" *ngIf="!loginService.isUserLoggedIn()" routerLink="/login" routerLinkActive="active">Login</button>
+  </div> 
+</div>
+<router-outlet></router-outlet>
